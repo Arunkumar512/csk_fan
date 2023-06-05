@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+#logo {
+  width: 5rem;
+  height: auto;
+}
+#centerlogo {
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/978/918/desktop-wallpaper-ipl-csk-chennai-super-kings-logo-blue-backgrounds-csk.jpg);
+  width: 15rem;
+  height: auto;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(yellow,white);
+}
+
+#navbar :hover{
+color:blue;
+  }
+
+.text {
+  margin: 1rem;
+  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: medium;
+color: black;
+
+}
+

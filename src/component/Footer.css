@@ -1,0 +1,80 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  width: 10vw;
+  height: auto;
+  margin-left: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#tvs {
+  display: flex;
+  width: 20vw;
+  margin-left: 40%;
+}
+#second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#snj,
+#british,
+#jio,
+#astral,
+#nippon,
+#vision {
+  margin-left: 2rem;
+}
+.offp {
+  width: 10vw;
+  height: auto;
+  margin-left: 1rem;
+  margin-bottom: 15%;
+}
+.offpartner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.rdp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+}
+.rd {
+  width: 9vw;
+  height: auto;
+  margin-left: 2rem;
+
+}

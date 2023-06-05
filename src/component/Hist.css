@@ -1,0 +1,24 @@
+.win_img{
+    width:100%;
+    height:auto ;
+}
+.win_img:hover{
+  transform: scale(0.99);
+}
+#trophy{
+background-color: #173571 ;
+}
+.date{
+color: aliceblue;
+}
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+}
+.id{
+  color: #FFBE00;
+}
