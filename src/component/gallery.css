@@ -1,0 +1,12 @@
+#gall {
+  background-image: url("./image/brick.jpg");
+}
+.items {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-bg {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXg3rRMwx67qol1qIvdfoxr0dt4CKfS32eQ&usqp=CAU);
+}

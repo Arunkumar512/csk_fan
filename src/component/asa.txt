@@ -1,0 +1,55 @@
+ <>
+      <div>
+        < Navi />
+        <h1 className='mt-2 mb-4 text-center main-heading'> Players
+        </h1>
+        <div className="menu-tabs container">
+          <div className="menu-tab d-flex justify-content-around">
+            <button className='btn btn-warning' onClick={() => filterItem('WICKET KEEPER')}>Wicket keeper</button>
+            <button className='btn btn-warning' onClick={() => filterItem('BATTER')}>Batsman</button>
+            <button className='btn btn-warning' onClick={() => filterItem('BOWLER')}>Bowler</button>
+            <button className='btn btn-warning' onClick={() => filterItem('ALL-ROUNDER')}>All Rounder</button>
+            <button className='btn btn-warning' onClick={() => filterItem('PLAYER')} >Players</button>
+            <button className='btn btn-warning' onClick={() => filterItem('SUPPORT STAFF')} >staff</button>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div className='menu-items d-flex justify-content-around container-fluid mt-2'>
+        <div className='row'>
+          <div className='col-11 mx-auto'>
+            <div className="row d-flex justify-content-around my-5 mx-5">
+              {
+                Player.map((val) => {
+                  return (
+                    <>
+                      <div className="card item1 col-12 col-md-11 col-lg-5 col-xl-12">
+                        <div className="row Item-inside ">
+                          <div className=" col-12 col-md-12 col-lg-4 col-xl-12 img-div">
+                            <img id="img" src={val.img} alt="players" className='img-fluid' />
+                          </div>
+                          <div className="col-12 col-md-12 col-lg-8">
+                            <div className="vProfile main-title pt-4 pb-3 title">
+                              <h6 id='name'>
+                                {val.name}
+                              </h6>
+                              <p id='role'>
+                                {val.role}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )
+                })
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </>

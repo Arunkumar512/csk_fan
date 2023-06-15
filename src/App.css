@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 body {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
+}
+.loade {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#lion{
+  width: 45vw;
+  height:50vh;
+
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-image: url(https://img.freepik.com/free-photo/texture-golden-decorative-plaster-concrete-abstract-grunge-background-design_1258-108954.jpg);
+}
+::-webkit-scrollbar-thumb {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjGNYIw3ktxGefQkaeZ-_YhsmBXS5Qx0hWw&usqp=CAU);
+  border: 5px solid trsndpsrent;
+  border-radius: 9px;
+  background-clip: content-box;
 }

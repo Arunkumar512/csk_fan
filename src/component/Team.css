@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin: 1%;
+  background-image: url(https://i.pinimg.com/564x/2b/7c/63/2b7c63aef4f7d518d32a5eaf6a5644f7.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  color: white;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.vProfile {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #0000009c 30%,
+    #f9da5d 85%,
+    #f9da5d 100%
+  );
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  padding-top: 10px;
+  padding-left: 5%;
+  bottom: 0%;
+  right: 0%;
+  font-family: "Gotham-condensed-bold";
+  color: white;
+  letter-spacing: 1.5px;
+  text-size-adjust: 100%;
+  font-size: small;
+  flex-wrap: wrap;
+}
+.check {
+  background-image: url(https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80);
+}
+button {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjGNYIw3ktxGefQkaeZ-_YhsmBXS5Qx0hWw&usqp=CAU);
+}
+.bg{
+  background-image: url(../component/image/brick.jpg);
+}
+br{
+  background-image: url(../component/image/brick.jpg);
+}
+
+/* .card {
+  background-color: #0066b3;
+ 
+  background-repeat: round;
+  color: white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 1rem;
+  margin-left: 5rem;
+}
+
+#role{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+} */

@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    cursor: url(https://www.shutterstock.com/image-illustration/whistle-isolated-white-background-3d-260nw-148211237.jpg);
 }

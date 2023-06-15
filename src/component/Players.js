@@ -41,7 +41,7 @@ let Players = [
     {
         id: 1,
         name: "MS DHONI",
-        role: "WICKET KEEPER",
+        role: "BATTER",
         img: msd,
         team: "PLAYER"
     },
