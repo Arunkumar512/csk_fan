@@ -7,13 +7,11 @@ function Csktv() {
   return (
     <div>
       <Navi />
-      <div id="Csktv" className='containers'>
-        <div className="box">
-          <img id='csk' src={csk} alt="" srcset="" />
-        </div>
-      </div>
-      <div className="tvs" >
+      <div id="Csktv" className='containers '>
+        <img id='csk' src={csk} alt="" srcset=""  className='parent'/>
+        <div className="tvs" >
         <video muted autoPlay allow="autoplay" loop  src={trophy} ></video>
+        </div>
       </div>
     </div>
 

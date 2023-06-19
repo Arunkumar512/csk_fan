@@ -1,8 +1,8 @@
 import React from 'react'
-
+import News from './News'
 function Wistlepodu() {
   return (
-    <div>Wistlepodu</div>
+    <div><News/></div>
   )
 }
 

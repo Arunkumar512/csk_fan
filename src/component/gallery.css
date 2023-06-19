@@ -1,6 +1,8 @@
 #gall {
   background-image: url("./image/brick.jpg");
+  border-radius: 2rem;
 }
+
 .items {
   margin: 1rem;
   display: flex;

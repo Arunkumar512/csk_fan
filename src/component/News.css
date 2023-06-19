@@ -1,0 +1,27 @@
+#card_news {
+  background-image: url(https://t4.ftcdn.net/jpg/02/87/54/29/240_F_287542942_x8FeyvoeXMBoI2gK3JwxBxS9laMxPmOC.jpg);
+width: 15rem;
+
+}
+
+.info {
+  display: flex;
+  overflow-x: auto;
+  width:100%;
+  height: 5rem;
+  display: flex;
+}
+.info::-webkit-scrollbar {
+  width: 0;
+}
+#card_title {
+  width: 10rem;
+  height: auto;
+}
+#card_des {
+  font-size: small;
+}
+
+.btn:hover {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjGNYIw3ktxGefQkaeZ-_YhsmBXS5Qx0hWw&usqp=CAU);
+}
