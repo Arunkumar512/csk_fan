@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+
 body {
-  font-family: "Anton", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 .loade {
   width: 100vw;
@@ -9,10 +10,9 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-#lion{
+#lion {
   width: 45vw;
-  height:50vh;
-
+  height: 50vh;
 }
 
 ::-webkit-scrollbar {

@@ -1,8 +1,6 @@
 import React from 'react'
 import axios from "axios"
-import Button from 'react-bootstrap/Button';
 import "./News.css"
-import Card from 'react-bootstrap/Card';
 const newsurl = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=efc08fd6836d48829c673d6f95c91171"
 
 function News() {
@@ -21,16 +19,20 @@ function News() {
                 {
                     data.map((val) => {
                         return (
-                            <Card id="card_news">
-                                <Card.Img variant="top" src={val.urlToImage} />
-                                <Card.Body className='cards'>
-                                    <h6 id='card_title'>{val.title}</h6>
-                                    <Card.Text id='card_des'>
-                                        {val.description}
-                                    </Card.Text>
-                                    <Button className='btn' variant="btn btn-warning" href={val.url}>View more</Button>
-                                </Card.Body>
-                            </Card>
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="col-3">
+                                        <div className="cards"  style={{width:"20rem"}} id='card_news'>
+                                            <img style={{width:"20rem"}} src={val.urlToImage} alt={"image"}/>
+                                            <div className="card-body">
+                                                <h5 className='card-title'>{val.title}</h5>
+                                                <p className='card-text'> {val.description}</p>
+                                                <a href={val.url} className='btn btn-primary'>View more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         )
                     })
                 }

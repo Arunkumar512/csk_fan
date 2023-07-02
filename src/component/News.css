@@ -1,25 +1,19 @@
 #card_news {
-  background-image: url(https://t4.ftcdn.net/jpg/02/87/54/29/240_F_287542942_x8FeyvoeXMBoI2gK3JwxBxS9laMxPmOC.jpg);
-width: 15rem;
+  background-image: url(https://cdn.create.vista.com/api/media/small/461207436/stock-photo-minimalistic-multicolored-gradient-background-mosaic);
 
 }
-
 .info {
+  padding-top: 1rem;
   display: flex;
   overflow-x: auto;
   width:100%;
-  height: 5rem;
+  height:auto;
   display: flex;
+  background-image: linear-gradient(to right, red , yellow);
+
 }
 .info::-webkit-scrollbar {
   width: 0;
-}
-#card_title {
-  width: 10rem;
-  height: auto;
-}
-#card_des {
-  font-size: small;
 }
 
 .btn:hover {

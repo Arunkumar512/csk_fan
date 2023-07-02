@@ -19,7 +19,7 @@ function Navi() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto ">
               <Link className=' nav-link text' to="/home">Home</Link>
-              <Link className=' nav-link text' to="/Team" >Link</Link>
+              <Link className=' nav-link text' to="/Team" >Team</Link>
               <Link className=' nav-link text' to="/gallery">Gallery</Link>
               <Link ><img className='bg-body-tertiary' id='centerlogo' src={trophy23} alt="" /></Link>
               <Link className=' nav-link text' to="/wistlepodu">Wistlepodu</Link>
