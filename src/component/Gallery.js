@@ -1,12 +1,10 @@
 import React from 'react'
-import Navi from './Nav'
 import images from "./gallery_img"
 import "./gallery.css"
 
 function Gallery() {
   return (
     <>
-      <Navi />
       <div className='d-flex justify-content-around container-fluid'>
         <div className='row' id="gall">
           <div className='col-11 img-bg mx-auto'>

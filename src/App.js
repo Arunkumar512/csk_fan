@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Team from './component/Team';
+import Navi from './component/Nav'
 import Home from './component/Home';
 import Gallery from './component/Gallery';
 import Wistlepodu from './component/Wistlepodu';
@@ -12,7 +13,6 @@ import Contact from './component/Contact';
 import Social from './component/social';
 import preloads from "./component/image/preload.gif";
 import offical from "./component/audio/offical.mp3"
-// import ReactAudioPlayer from 'react-audio-player';
 import lion from "./component/image/cskmos.jpg"
 
 function App() {
@@ -37,15 +37,16 @@ function App() {
           </div>
           :
           <BrowserRouter>
+            <Navi />
             <Routes>
               <Route path="*" element={<Home />} />
               <Route path="/Team" element={<Team />} />
+              {/* <Route path="/Wistlepodu" element={<Wistlepodu />} /> */}
+               <Route path="/Shop" element={<Shop />} />
               <Route path="/Gallery" element={<Gallery />} />
-              <Route path="/Wistlepodu" element={<Wistlepodu />} />
-              <Route path="/Shop" element={<Shop />} />
               <Route path="/Csktv" element={<Csktv />} />
-              <Route path="/Contact" element={<Contact />} />
-              <Route path="/Carts" element={<Carts />} />
+              {/* <Route path="/Contact" element={<Contact />} />
+              <Route path="/Carts" element={<Carts />} /> */}
             </Routes>
             <Social />
           </BrowserRouter>

@@ -1,4 +1,3 @@
-import Navi from './Nav'
 import { useState } from 'react';
 import Players from './Players';
 import "./Team.css"
@@ -16,7 +15,6 @@ function Team() {
   return (
     <>
       <div className='bg'>
-        < Navi />
         <div className="mt-3 menu-tabs container">
           <div className="menu-tab d-flex justify-content-around">
             <button className='btn btn-warning mb-3' onClick={() => filterItem('BATTER')}>Batsman</button>

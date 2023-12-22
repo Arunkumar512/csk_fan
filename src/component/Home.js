@@ -7,7 +7,6 @@ import News from './News';
 function Home() {
     return (
         <div>
-            <Navi />
             <Scroll />
             <News />
             <History />

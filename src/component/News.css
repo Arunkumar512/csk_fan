@@ -19,3 +19,18 @@
 .btn:hover {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjGNYIw3ktxGefQkaeZ-_YhsmBXS5Qx0hWw&usqp=CAU);
 }
+&__wrap {
+
+  &--outer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+
+  &--inner {
+      display: flex;
+      flex-direction: row;
+      width: 33.33%;
+  }
+}

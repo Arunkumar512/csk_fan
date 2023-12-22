@@ -22,11 +22,11 @@ function News() {
                             <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-3">
-                                        <div className="cards"  style={{width:"20rem"}} id='card_news'>
+                                        <div className="cards"  style={{width:"20rem",height:"20rem"}} id='card_news'>
                                             <img style={{width:"20rem"}} src={val.urlToImage} alt={"image"}/>
                                             <div className="card-body">
                                                 <h5 className='card-title'>{val.title}</h5>
-                                                <p className='card-text'> {val.description}</p>
+                                                {/* <p className='card-text'> {val.description}</p> */}
                                                 <a href={val.url} className='btn btn-primary'>View more</a>
                                             </div>
                                         </div>

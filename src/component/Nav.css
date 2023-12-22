@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 #logo {
-  width: 5rem;
+  width: 7rem;
   height: auto;
 }
 .text{
@@ -17,23 +17,27 @@
   align-items: center;
   justify-content: center;
   background:linear-gradient(#FAD703,white);
-
 }
 
 #navbar :hover{
 color:blue;
   }
-
 .text {
   margin: 1rem;
   text-decoration: none;
   font-family: 'Space Grotesk', sans-serif;
   font-size: medium;
-color: black;
+  color: black;
 
 }
 
 #logo{
   border-top-left-radius: 25%;
   border-bottom-right-radius: 25%;
+}
+#navcontainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 63%;
 }

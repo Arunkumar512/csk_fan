@@ -10,6 +10,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+#audio{
+  width: 0%;
+  height: 0%;
+}
 #lion {
   width: 45vw;
   height: 50vh;

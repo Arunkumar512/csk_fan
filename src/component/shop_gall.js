@@ -1,12 +1,12 @@
-import back from "./shop/backpak csk.jpeg"
+import backpack from "./shop/backpak csk.jpeg"
 import tshirt from "./shop/t1_kid.jpeg"
 import thala from "./shop/thala.jpeg"
 import mug from "./shop/mug.jpeg"
 import mat from "./shop/mat.png"
-let shop = [
+let shops = [
 
     {
-        img: back,
+        img: backpack,
         Name: "Fan Gear Tee 2023",
         category: "APPARELS",
         size: "All size are available",
@@ -49,4 +49,4 @@ let shop = [
 ]
 
 
-export default shop
+export default shops
